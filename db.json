@@ -1,0 +1,25 @@
+{
+    "user": [
+        {
+            "_id": "1",
+            "full_name": "Admin Duy",
+            "email": "adminduy@gmail.com",
+            "password": "123",
+            "role": "ADMIN",
+            "address": "",
+            "phone_number": "",
+            "created_at": "",
+            "avatar": "",
+            "isActive": true
+        }
+    ],
+    "shop": [
+        {
+            "_id": "1",
+            "name": "Shop of Admin Duy",
+            "avatar": "",
+            "id_user": "",
+            "create_at": ""
+        }
+    ]
+}
