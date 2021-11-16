@@ -1,19 +1,96 @@
 {
-    "user": [
-        {
-            "_id": "1",
-            "full_name": "Admin Duy",
-            "email": "adminduy@gmail.com",
-            "password": "123",
-            "role": "ADMIN",
-            "address": "",
-            "phone_number": "",
-            "created_at": "",
-            "avatar": "",
-            "isActive": true
-        }
-    ],
-    "shop": [
-        
-    ]
+  "user": [
+    {
+      "full_name": "Admin Duy",
+      "email": "adminduy@gmail.com",
+      "password": "123",
+      "role": "ADMIN",
+      "address": "",
+      "phone_number": "",
+      "created_at": "",
+      "avatar": "",
+      "isActive": true,
+      "id": 1
+    },
+    {
+      "full_name": "Admin Duy 2",
+      "email": "adminduy@gmail.com",
+      "password": "123",
+      "role": "ADMIN",
+      "address": "",
+      "phone_number": "",
+      "created_at": "",
+      "avatar": "",
+      "isActive": true,
+      "id": 2
+    }
+  ],
+  "shop": [
+    {
+      "name": "duyyyyyyyyy",
+      "id_user": 2,
+      "created_at": "2021-11-16T12:36:40.103Z",
+      "id": 9
+    },
+    {
+      "name": "duy2",
+      "id_user": 1,
+      "created_at": "2021-11-16T14:53:06.842Z",
+      "id": 10
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:03:34.730Z",
+      "id": 11
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:04:36.139Z",
+      "id": 12
+    },
+    {
+      "name": "usum test",
+      "id_user": 2,
+      "created_at": "2021-11-16T15:04:54.022Z",
+      "id": 13
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:05:01.638Z",
+      "id": 14
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:05:07.647Z",
+      "id": 15
+    },
+    {
+      "name": "usum test",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:05:17.169Z",
+      "id": 16
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:05:24.094Z",
+      "id": 17
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:05:43.853Z",
+      "id": 18
+    },
+    {
+      "name": "duy",
+      "id_user": 1,
+      "created_at": "2021-11-16T15:34:20.570Z",
+      "id": 19
+    }
+  ]
 }
