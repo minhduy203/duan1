@@ -4,13 +4,14 @@
       "full_name": "Admin Duy",
       "email": "adminduy@gmail.com",
       "password": "123",
-      "role": "ADMIN",
+      "role": "",
       "address": "",
-      "phone_number": "",
+      "phone_number": "123456789",
       "created_at": "",
       "avatar": "",
       "isActive": true,
-      "id": 1
+      "id": 1,
+      "birth_day": ""
     },
     {
       "full_name": "Admin Duy 2",
@@ -23,17 +24,24 @@
       "avatar": "",
       "isActive": true,
       "id": 2
+    },
+    {
+      "full_name": "Đào Đức Minh Khôi",
+      "created_at": "2021-11-19T10:04:02.135Z",
+      "phone_number": "09792151255",
+      "email": "daoducminhkhoi@gmail.com",
+      "address": "",
+      "birth_day": "",
+      "role": "4",
+      "avatar": {},
+      "isActive": true,
+      "id": 3,
+      "password": "123123123"
     }
   ],
   "shop": [
     {
-      "name": "duyyyyyyyyy",
-      "id_user": 2,
-      "created_at": "2021-11-16T12:36:40.103Z",
-      "id": 9
-    },
-    {
-      "name": "duy2",
+      "name": "duy222",
       "id_user": 1,
       "created_at": "2021-11-16T14:53:06.842Z",
       "id": 10
@@ -91,6 +99,155 @@
       "id_user": 1,
       "created_at": "2021-11-16T15:34:20.570Z",
       "id": 19
+    },
+    {
+      "name": "My",
+      "id_user": 1,
+      "created_at": "2021-11-16T16:44:16.724Z",
+      "id": 20
+    }
+  ],
+  "rolePending": [
+    {
+      "id": 1,
+      "id_user": 1,
+      "required_role": 2
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Thời Trang Nam",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/687f3967b7c2fe6a134a2c11894eea4b_tn"
+    },
+    {
+      "name": "Điện Thoại & Phụ Kiện",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/31234a27876fb89cd522d7e3db1ba5ca_tn",
+      "id": 2
+    },
+    {
+      "name": "Thiết Bị Điện Tử",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/978b9e4cb61c611aaaf58664fae133c5_tn",
+      "id": 3
+    },
+    {
+      "name": "Máy Tính & Laptop",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/c3f3edfaa9f6dafc4825b77d8449999d_tn",
+      "id": 4
+    },
+    {
+      "name": "Máy Ảnh & Máy Quay Phim",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/ec14dd4fc238e676e43be2a911414d4d_tn",
+      "id": 5
+    },
+    {
+      "name": "Đồng Hồ",
+      "is_show": "true",
+      "image": "https://cf.shopee.vn/file/86c294aae72ca1db5f541790f7796260_tn",
+      "id": 6
+    },
+    {
+      "name": "Giày dép nams",
+      "is_show": false,
+      "image": "https://cf.shopee.vn/file/74ca517e1fa74dc4d974e5d03c3139de_tn",
+      "id": 7
+    }
+  ],
+  "product": [
+    {
+      "name": "Áo giữ nhiệt lót nỉ nam cổ 3p bảng 10 màu đẹp nhất ngành - toàn màu hot nam tính!",
+      "url": "https://cf.shopee.vn/file/2df142298b8762051efcf635c368d99d_tn",
+      "img": "https://cf.shopee.vn/file/2df142298b8762051efcf635c368d99d_tn",
+      "price": 98000,
+      "promotional_price": 49000,
+      "amount": 25,
+      "id_category": 1,
+      "id_shop": 10,
+      "create_at": "2021-11-16T15:03:34.730Z",
+      "description": "",
+      "view_amount": 0,
+      "buy_amount": 0,
+      "properties": 0,
+      "is_show": true,
+      "isHot": true,
+      "id": 1
+    },
+    {
+      "name": "Quần Thun lạnh thể thao 2 túi khóa kéo vải dày, mềm mịn co dãn 4 chiều có size Bự- QSTT012",
+      "url": "https://cf.shopee.vn/file/3a5f2f8b397ada6ba12953075973ecee_tn",
+      "img": "https://cf.shopee.vn/file/3a5f2f8b397ada6ba12953075973ecee_tn",
+      "price": 79000,
+      "promotional_price": 49000,
+      "amount": 12,
+      "id_category": 1,
+      "id_shop": 10,
+      "create_at": "2021-11-16T15:03:34.730Z",
+      "description": "",
+      "view_amount": 0,
+      "buy_amount": 0,
+      "properties": 0,
+      "is_show": true,
+      "isHot": false,
+      "id": 2
+    },
+    {
+      "name": "Mũ lưỡi trai ❤️ Nón kết thêu chữ Memorie phong cách Ulzzang form unisex nam nữ N01",
+      "url": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "img": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "price": 58000,
+      "promotional_price": 45000,
+      "amount": 12,
+      "id_category": 1,
+      "id_shop": 11,
+      "create_at": "2021-11-16T15:03:34.730Z",
+      "description": "",
+      "view_amount": 0,
+      "buy_amount": 0,
+      "properties": 0,
+      "is_show": true,
+      "isHot": true,
+      "id": 3
+    },
+    {
+      "name": "Mũ lưỡi trai ❤️ Nón kết thêu chữ Memorie phong cách Ulzzang form unisex nam nữ N01",
+      "url": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "img": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "price": 58000,
+      "promotional_price": 45000,
+      "amount": 12,
+      "id_category": 1,
+      "id_shop": 11,
+      "create_at": "2021-11-16T15:03:34.730Z",
+      "description": "",
+      "view_amount": 0,
+      "buy_amount": 0,
+      "properties": 0,
+      "is_show": true,
+      "isHot": true,
+      "id": 3
+    }, 
+    {
+      "name": "Mũ lưỡi trai ❤️ Nón kết thêu chữ Memorie phong cách Ulzzang form unisex nam nữ N01",
+      "url": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "img": "https://cf.shopee.vn/file/d7ef4464338e3e5c59b05b622dd4f601_tn",
+      "price": 58000,
+      "promotional_price": 45000,
+      "amount": 12,
+      "id_category": 1,
+      "id_shop": 11,
+      "create_at": "2021-11-16T15:03:34.730Z",
+      "description": "",
+      "view_amount": 0,
+      "buy_amount": 0,
+      "properties": 0,
+      "is_show": true,
+      "isHot": true,
+      "id": 3
     }
   ]
 }
